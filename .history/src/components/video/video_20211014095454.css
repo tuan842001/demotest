@@ -1,0 +1,45 @@
+.video {
+    padding-top: 144px;
+    padding-bottom: 198px;
+    position: relative; 
+}
+.video div {
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+.videoBackground{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    object-fit: cover;
+    background: transparent;
+}
+.videoContent{
+    width: auto;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.videoTitle{
+    font-size: 30px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.videoSubtitle{
+    font-size: 14px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-top: 3px;
+}
+.videoPlay{
+    margin: 0 auto;
+    margin-top: 43px;
+    cursor: pointer;
+}

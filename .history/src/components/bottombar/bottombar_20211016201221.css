@@ -1,0 +1,101 @@
+.bottombar{
+    width: 100%;
+    height: 300px;
+    background-color: #080d1d;
+    display: flex;
+    align-items: center;
+    font-family: 'Lora', serif;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+}
+.bottomLeft, .bottomCenter {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-left: 74px;
+}
+
+.bottomRight{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bottomTitle{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.bottomText{
+    margin-bottom: 10px;
+}
+.bottomIcon{
+    font-size: 35px;
+    margin-top: 15px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.bottomSubscribe{
+    display: flex;
+    margin-top: 20px;
+}
+.bottomSubscribe div{
+    border: solid 2px rgba(255,255,255,0.5);
+    border-radius: 10px;
+}
+.sm {
+    position: absolute;
+    top: 0;
+    right: 91%;
+    z-index: 1;
+    height: 100%;
+    width: 50px;
+    border: none;
+    background: 0 0;
+    border-right: 1px solid #7d8fab;
+}
+.bottomSubscribe i{
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 92%;
+    transform: translateY(-50%);
+    z-index: 1;
+    pointer-events: none;
+    position: absolute;
+    
+    border: none;
+    background: 0 0;
+    border-right: 1px solid #7d8fab;
+}
+.bottom_input{
+    width: calc(65% - 100px);
+    height: 56px;
+    border: solid 2px rgba(255,255,255,0.5);
+    outline: none;
+    background: transparent;
+    padding-left: 31px;
+    color: #FFFFFF;
+}
+.bottom_button{
+    width: 161px;
+    height: 62px;
+    vertical-align: top;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #fe364a;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 500;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+

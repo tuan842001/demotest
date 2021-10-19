@@ -1,0 +1,15 @@
+.sectionTitle h2 {
+    font-weight: 300;
+    color: #131a2f;
+    font-size: 40px !important;
+}
+.rowTop{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-top: 6px;
+    padding-bottom: 40px;
+    margin-left: calc(50% - 585px);
+    margin-right: calc(50% - 585px);
+}

@@ -1,0 +1,28 @@
+.post {
+    width: 360px;
+    margin: 0px 25px 40px 25px;
+    cursor: pointer;
+    position: relative;
+}
+.postImg{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    left: 33px;
+    bottom: 100px;
+    color: #fff;
+}
+.postTitle{
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.postPrice{
+    font-family: 'Lora', serif;
+    font-style: italic;
+}

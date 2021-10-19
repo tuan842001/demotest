@@ -1,0 +1,13 @@
+.filtering_row{
+    margin-top: 30px;
+}
+.col.colEdit{
+    border-bottom: 1px solid #dbdbdb;
+}
+.sortingGroup1{
+    float: left;
+}
+.sortingItem{
+    display: inline-block;
+}
+}

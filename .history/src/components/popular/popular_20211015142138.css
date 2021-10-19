@@ -1,0 +1,40 @@
+
+.popular{
+    width: 100%;
+    background: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+.popularList{
+    width: 100%;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+
+
+}
+.popularItem{
+    width: calc((100% - 90px) / 4);
+    margin-bottom: 26px;
+}
+.popularItem img{
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.popularItemText{
+    position: absolute;
+    left: 28px;
+    bottom: 60px;
+    z-index: 10;
+}
+.popularItemTitle{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+
+}
+

@@ -1,0 +1,31 @@
+.contact {
+    padding-top: 107px;
+    padding-bottom: 120px;
+}
+.contactTitle {
+    font-size: 40px;
+    font-weight: 400;
+    color: #131a2f;
+}
+.contactSubtitle {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #7d8293;
+    margin-top: 10px;
+}
+.contactInfo {
+    margin-top: 75px;
+}
+.contactInfoContainer {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -4px;
+    padding-left: 23px;
+    max-width: 310px;
+}
+.contactInfoContent ul li {
+    font-size: 14px;
+    color: #131a2f;
+    font-weight: 500;
+    margin-bottom: 18px;
+}

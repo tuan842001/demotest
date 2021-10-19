@@ -1,0 +1,15 @@
+.bottombar{
+    width: 100%;
+    height: 300px;
+    background-color: #080d1d;
+    display: flex;
+    align-items: center;
+    font-family: 'Lora', serif;
+    color: #fff;
+}
+.bottomLeft, .bottomCenter {
+    flex: 3;
+}
+.bottomRight{
+    flex: 4;
+}

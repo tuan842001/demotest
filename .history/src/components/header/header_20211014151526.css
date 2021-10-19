@@ -1,0 +1,22 @@
+
+.headerTitles{
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lora', serif;
+    color: #fff;
+}
+.headerTitleSm{
+    position: absolute;
+    top: 20%;
+    font-size: 80px;
+}
+.headerTitleLg{
+    position: absolute;
+    top: 30%;
+    font-size: 80px;
+}
+.headerTitImg{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}

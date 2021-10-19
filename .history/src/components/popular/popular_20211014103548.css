@@ -1,0 +1,66 @@
+.popular div{
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.popular{
+    width: 100%;
+    background: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+.col{
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.section_title{
+    padding-top: 30px;
+    line-height: 1.1;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center!important;
+
+}
+.section_title div {
+    font-size: 16px;
+    font-weight: 500;
+    color: #7d8293;
+    text-transform: uppercase;
+    margin-top: 19px;
+}
+.popularList{
+    width: 100%;
+    align-items: center!important;
+    justify-content: space-between!important;
+    flex-direction: row!important;
+    flex-wrap: wrap!important;
+    display: flex!important;
+
+}
+.popularItem{
+    width: calc((100% - 90px) / 4);
+    margin-bottom: 26px;
+}
+.popularItem img{
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.popularItemText{
+    position: absolute;
+    left: 28px;
+    bottom: 27px;
+    z-index: 10;
+}
+.popularItemTitle{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+

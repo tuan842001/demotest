@@ -1,0 +1,17 @@
+.popular div{
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.popular{
+    width: 100%;
+    background: #FFFFFF;
+}
+.section_title{
+    padding-top: 30px;
+    line-height: 1.1;
+    text-align: center!important;
+
+}

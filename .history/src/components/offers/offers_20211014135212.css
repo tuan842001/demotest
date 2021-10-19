@@ -1,0 +1,95 @@
+.filtering_row{
+    margin-top: 30px;
+}
+.col.colEdit{
+    border-bottom: 1px solid #dbdbdb;
+}
+.sortingGroup1{
+    float: left;
+}
+.sortingItem{
+    display: inline-block;
+}
+.sortingItem li {
+    display: inline-block;
+    position: relative;
+    width: 132px;
+    height: 36px;
+    line-height: 32px;
+    cursor: pointer;
+    border: solid 2px #dbdbdb;
+    padding-left: 15px;
+    padding-right: 7px;
+    margin-right: 16px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #131a2f;
+    margin-bottom: 10px;
+}
+.sortingItem li i {
+    float: right;
+    line-height: 32px;
+    font-size: 18px;
+    color: #d0d0d0;
+}
+.sortingItemBtn span{
+    border-bottom: solid 1px #dbdbdb !important;
+}
+.sortingItemBtn span:hover{
+    color: #007bff;
+}
+.dropdown-content li{
+    border:none;
+}
+
+.sortingItem li ul li span{
+    display: block;
+    text-align: left;
+}
+.items{
+    margin-top: 30px;
+    zoom: 1;
+}
+.item{
+    width: 50%;
+    float: left;
+    margin-bottom: 35px;
+    zoom: 1;
+}
+.itemImg{
+    width: 50%;
+    float: left;
+}
+.itemImg img {
+    max-width: 100%;
+}
+.itemContent{
+    width: 50%;
+    padding-left: 29px;
+    margin-top: -4px;
+    float: left
+}
+.itemPrice{
+    font-size: 14px;
+    font-weight: 700;
+    color: #131a2f;
+}
+.itemTitle{
+    font-size: 20px;
+    font-weight: 700;
+    color: #131a2f;
+    margin-top: 1px;
+}
+.rating{
+    margin-top: 11px;
+}
+.rating i{
+    color: #fa9e1b;
+    font-size: 19px;
+    margin-right: 4px;
+}
+.itemMore{
+    margin-top: 28px;
+    font-weight: 700;
+    color: #007bff;
+}

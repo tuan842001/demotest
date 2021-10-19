@@ -1,0 +1,65 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.headerBackground, .headerBackground img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.headerContent{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: center;
+}
+.headerTitleSm{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 72px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-shadow: 0px 11px 51px rgb(0 0 0 / 35%);
+
+}
+.headerTitleLg{
+    font-size: 220px;
+    font-weight: 900;
+    color: #fdaa27;
+    opacity: 0.35;
+    text-transform: uppercase;
+    line-height: 0.75;
+}
+
+/* Header Intour */
+.headerIntour{
+    width: 100%;
+}
+.headerIntourBackground, .headerIntourBackground img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

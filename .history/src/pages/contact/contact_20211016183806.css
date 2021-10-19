@@ -1,0 +1,15 @@
+.contact {
+    padding-top: 107px;
+    padding-bottom: 120px;
+}
+.contactTitle {
+    font-size: 40px;
+    font-weight: 400;
+    color: #131a2f;
+}
+.contact_subtitle {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #7d8293;
+    margin-top: 10px;
+}

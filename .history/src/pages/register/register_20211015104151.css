@@ -1,0 +1,12 @@
+.btn-primary a {
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.registerbtn{
+    display: flex;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+}

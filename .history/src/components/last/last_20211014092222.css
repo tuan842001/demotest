@@ -1,0 +1,91 @@
+.last{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+.lastImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 65px;
+    margin-left: calc(50% - 585px);
+    margin-right: calc(50% - 585px);
+}
+.lastLeft, .lastRight{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.lastItem{
+    padding-right: calc(30% - 100px);
+}
+.lastItemContainer{
+    background: rgba(254, 64, 91, 0.79);
+    padding-top: 53px;
+    padding-bottom: 35px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 80px;
+}
+.lastSubtitle {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+}
+.lastPercent{
+    font-size: 160px;
+    font-weight: 100;
+    line-height: 0.75;
+    margin-top: 14px;
+    text-align: left;
+}
+.lastTitle{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 7px;
+    line-height: 1.1;
+}
+.lastText{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 2.14;
+    margin-top: 15px;
+}
+.lastButton{
+    margin-top: 37px;
+    display: inline-block;
+    width: 161px;
+    height: 56px;
+    background: #131a2f;
+    
+}
+a{
+    display: block;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 56px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
